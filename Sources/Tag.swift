@@ -272,14 +272,13 @@ open class Tag: Hashable {
         "sub", "sup", "bdo", "iframe", "embed", "span", "input", "select", "textarea", "label", "button", "optgroup",
         "option", "legend", "datalist", "keygen", "output", "progress", "meter", "area", "param", "source", "track",
         "summary", "command", "device", "area", "basefont", "bgsound", "menuitem", "param", "source", "track",
-        "data", "bdi"
-    ]
-    private static let emptyTags: [String] = [
-        "meta", "link", "base", "frame", "img", "input", "br", "wbr", "embed", "hr", "keygen", "col", "command",
+        "data", "bdi", "meta", "link", "base", "frame", "img", "input", "br", "wbr", "embed", "hr", "keygen", "col", "command",
         "device", "area", "basefont", "bgsound", "menuitem", "param", "source", "track"
     ]
+    private static let emptyTags: [String] = [
+    ]
     private static let formatAsInlineTags: [String] = [
-        "input", "title", "a", "p", "h1", "h2", "h3", "h4", "h5", "h6", "pre", "address", "li", "th", "td", "script", "style",
+        "title", "a", "p", "h1", "h2", "h3", "h4", "h5", "h6", "pre", "address", "li", "th", "td", "script", "style",
         "ins", "del", "s"
     ]
     private static let preserveWhitespaceTags: [String] = [
